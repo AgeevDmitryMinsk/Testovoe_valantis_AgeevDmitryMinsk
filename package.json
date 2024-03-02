@@ -2,8 +2,8 @@
   "name": "valantis_rtk_testovoe_ageev",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -26,7 +26,7 @@
     "craco.config.js"
   ],
   "scripts": {
-    "start": "react-scripts start",
+    "start": "craco start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,7 +37,6 @@
       "react-app/jest"
     ]
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -52,6 +51,7 @@
   },
   "devDependencies": {
     "@types/md5": "^2.3.5",
+    "craco-alias": "^3.0.1",
     "eslint": "8.22.0",
     "react-redux": "8.0.5",
     "react-router-dom": "6.22.1",
@@ -65,5 +65,4 @@
     "@modules": "build/modules",
     "@core": "build/core"
   }
-
 }

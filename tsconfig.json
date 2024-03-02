@@ -53,7 +53,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "baseUrl": "src",
+    "baseUrl": "./src",
+
     "strict": true,
     "paths": {
 //      "@Components/*": ["./src/*"],
@@ -62,9 +63,11 @@
     },
     "isolatedModules": true
   },
+  "extends": "./tsconfig.paths.json",
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
   }
+
 }

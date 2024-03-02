@@ -1,6 +1,8 @@
 import { memo } from 'react';
-// import { classNames } from '@/shared/lib/classNames/classNames';
-import { classNames } from '../../../../shared/lib/classNames/classNames';
+
+// @ts-ignore
+import { classNames } from '@/shared/lib/classNames/classNames';
+// import { classNames } from '../../../../shared/lib/classNames/classNames';
 import cls from './ProductsFilters.module.scss';
 // import { Input } from '@/shared/ui/Input/Input';
 import { Input } from '../../../../shared/ui/Input/Input';

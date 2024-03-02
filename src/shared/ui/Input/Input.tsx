@@ -1,10 +1,9 @@
 import { ChangeEvent, InputHTMLAttributes, ReactNode, memo, useEffect, useRef, useState } from 'react';
 
-// import { classNames } from '@/shared/lib/classNames/classNames';
-// import { classNames } from '@Components/shared/lib/classNames/classNames';
-// import { classNames } from '@components/shared/lib/classNames/classNames';
-// import { classNames } from '@/shared/lib/classNames/classNames';
-import { classNames } from '../../lib/classNames/classNames';
+
+// @ts-ignore
+import { classNames } from '@/shared/lib/classNames/classNames';
+// import { classNames } from '../../lib/classNames/classNames';
 import cls from './Input.module.scss';
 // import { HStack } from '@/shared/ui/Stack';
 import { HStack } from '../Stack';
