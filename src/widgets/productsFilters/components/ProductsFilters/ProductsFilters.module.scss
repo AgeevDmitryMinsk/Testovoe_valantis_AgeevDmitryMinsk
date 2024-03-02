@@ -1,0 +1,17 @@
+.productsFilters {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.header {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  @media (width <= 762px) {
+    font-size: 20px;
+  }
+}

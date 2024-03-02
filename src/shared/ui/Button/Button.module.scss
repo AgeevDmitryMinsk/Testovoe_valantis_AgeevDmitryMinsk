@@ -1,0 +1,42 @@
+.button {
+  cursor: pointer;
+  outline-color: transparent;
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: default;
+    color: black;
+  }
+}
+
+.primary {
+  background: deeppink;
+}
+
+.outline {
+  background: green;
+}
+
+ .size-s {
+   width: 60px;
+   height: 30px;
+   border-radius: 12%;
+ }
+
+.size-m{
+  width: 70px;
+  height: 35px;
+  border-radius: 15%;
+}
+
+ .size-l{
+   width: 80px;
+   height: 40px;
+   border-radius: 17%;
+ }
+
+ .size-x {
+   width: 90px;
+   height: 45px;
+   border-radius: 18%;
+ }
